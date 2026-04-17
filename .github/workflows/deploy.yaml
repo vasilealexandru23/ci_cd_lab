@@ -58,7 +58,7 @@ jobs:
         # Grant write permissions to access repository contents and GitHub Container Registry
       permissions:
         contents: write
-      packages: write
+        packages: write
 
         # Run this job only after the 'compile' job completes successfully
       needs: compile
